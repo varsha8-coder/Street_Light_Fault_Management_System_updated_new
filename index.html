@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Street Light Fault Management</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div style="display:flex; align-items:center; padding:10px; background:#1a237e; color:white;">
+  <img src="light.png" width="50" height="50">
+  <h1 style="margin-left:15px; font-size:22px;">Street Light Fault Management System</h1>
+</div>
+
+<div class="container">
+
+  <input type="text" id="search" placeholder="Search street">
+  <button onclick="searchData()">Search</button>
+
+  <select id="filter" onchange="filterData()">
+    <option value="all">All</option>
+    <option value="Pending">Pending</option>
+    <option value="Fixed">Fixed</option>
+  </select>
+
+  <select id="wardFilter" onchange="filterData()">
+    <option value="all">All Wards</option>
+    <option value="Ward 1">Ward 1</option>
+    <option value="Ward 2">Ward 2</option>
+    <option value="Ward 3">Ward 3</option>
+    <option value="Ward 4">Ward 4</option>
+    <option value="Ward 5">Ward 5</option>
+    <option value="Ward 6">Ward 6</option>
+    <option value="Ward 7">Ward 7</option>
+  </select>
+
+  <table>
+    <thead>
+      <tr>
+        <th onclick="sortTable('fault_id')">ID</th>
+        <th onclick="sortTable('street')">Street</th>
+        <th onclick="sortTable('ward')">Ward</th>
+        <th onclick="sortTable('status')">Status</th>
+        <th onclick="sortTable('technician')">Technician</th>
+      </tr>
+    </thead>
+    <tbody id="tableBody"></tbody>
+  </table>
+  <p id="count"></p>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

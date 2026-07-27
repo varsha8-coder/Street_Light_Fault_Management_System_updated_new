@@ -1,0 +1,12 @@
+[
+  { "fault_id": 1, "street": "Anna Nagar", "ward": "Ward 1", "status": "Pending", "technician": "Ravi" },
+  { "fault_id": 2, "street": "KK Nagar", "ward": "Ward 2", "status": "Fixed", "technician": "Suresh" },
+  { "fault_id": 3, "street": "T Nagar", "ward": "Ward 1", "status": "Pending", "technician": "Arun" },
+  { "fault_id": 4, "street": "Velachery", "ward": "Ward 3", "status": "Fixed", "technician": "Kumar" },
+  { "fault_id": 5, "street": "Adyar", "ward": "Ward 4", "status": "Pending", "technician": "Mani" },
+  { "fault_id": 6, "street": "Guindy", "ward": "Ward 2", "status": "Fixed", "technician": "Ramesh" },
+  { "fault_id": 7, "street": "Tambaram", "ward": "Ward 5", "status": "Pending", "technician": "Vijay" },
+  { "fault_id": 8, "street": "Chrompet", "ward": "Ward 5", "status": "Fixed", "technician": "Ajay" },
+  { "fault_id": 9, "street": "Porur", "ward": "Ward 6", "status": "Pending", "technician": "Sathish" },
+  { "fault_id": 10, "street": "Ambattur", "ward": "Ward 7", "status": "Fixed", "technician": "Prakash" }
+]
